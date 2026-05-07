@@ -8,6 +8,8 @@ Offizieller Studienprojektname für Anmeldung: Gefahren im Internet - Implementi
 
 Kooperation mit Karl-Ritter-von-Frisch Gymnasium Moosburg
 
+![Hinweise zum Studienprojekt](studyproject-hints.pdf)
+
 ### Themen: 
 * Passwortsicherheit
 * Cybermobbing
