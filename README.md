@@ -2,7 +2,7 @@
 
 ![ILSE Otter](ILSE_Otter.png)
 
-ILSE - Interactive Learning System Entertainments
+### ILSE - Interactive Learning System Entertainments
 
 Offizieller Studienprojektname für Anmeldung: Gefahren im Internet - Implementierung einer interaktiven Lernplattform
 
@@ -26,20 +26,21 @@ Backend:
 
 Techytechy:
 > Frontend: Sarah, Lukas P.
+
 > Backend: Anna, Fenja, Lukas F.
 
 Verantwortlichkeiten:
-> Kommunikation: Fenja 
+* Kommunikation: Fenja 
 (Projektmanagement: Termine (Zeitplan), Moderation, Teamprobleme, generelle Infos, Kontakt zu Externen)
-> Dokumentation: Lukas F.
+* Dokumentation: Lukas F.
 (technische Dokumentation, Soll-/Ist-Vergleich)
-> Architektur: Anna
+* Architektur: Anna
 (Artefakte für Anfang, Diagramme, Entwicklungsprozess, Pipeline, DevOps)
-> Design: Sarah
+* Design: Sarah
 (UX-/UI-Design, altersgerecht, Maskottchen, Gestaltung)
-> Fachlich/Pädagogik: Lukas P.
+* Fachlich/Pädagogik: Lukas P.
 (altersgerechte Aufbereitung der Inhalte, Wissensübermittlung)
-> ALLE: persönliche Dokumentation
+* ALLE: persönliche Dokumentation
 
 ### Generelle Information
 
@@ -63,6 +64,6 @@ Verantwortlichkeiten:
 ![Klassendiagramm](classdiagram_domain.pdf)
 
 Naming:
-> Topic: Überthema mit Anzahl an Räumen
-> Room: logisches Abteil von Übungen
-> Exercises: Übungen an sich
+* Topic: Überthema mit Anzahl an Räumen
+* Room: logisches Abteil von Übungen
+* Exercises: Übungen an sich
