@@ -25,8 +25,8 @@ Backend:
 > EF Core
 
 Techytechy:
-> Frontend: Sarah, Lukas P./n
-> Backend: Anna, Fenja, Lukas F.
+* Frontend: Sarah, Lukas P.
+* Backend: Anna, Fenja, Lukas F.
 
 Verantwortlichkeiten:
 * Kommunikation: Fenja 
