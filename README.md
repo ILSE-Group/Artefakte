@@ -1,6 +1,6 @@
 # Studienprojekt
 
-![ILSE Otter](ILSE_Otter.png =300x200)
+![ILSE Otter](ILSE_Otter.png)
 
 ### ILSE - Interactive Learning System Entertainments
 
