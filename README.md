@@ -61,3 +61,8 @@ Verantwortlichkeiten:
 ### Aktuelle Infos zu Implementierung
 
 ![Klassendiagramm](classdiagram_domain.pdf)
+
+Naming:
+> Topic: Überthema mit Anzahl an Räumen
+> Room: logisches Abteil von Übungen
+> Exercises: Übungen an sich
