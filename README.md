@@ -1,34 +1,34 @@
 # Studienprojekt
 
-![ILSE Otter](ILSE_Otter.png)
+![ILSE Otter](ILSE_Otter.png =300x200)
 
-ILSE - Interactive Learning System Entertainments
+### ILSE - Interactive Learning System Entertainments
 
 Offizieller Studienprojektname für Anmeldung: Gefahren im Internet - Implementierung einer interaktiven Lernplattform
 
 Kooperation mit Karl-Ritter-von-Frisch Gymnasium Moosburg
 
-Themen: 
-> Passwortsicherheit
-> Cybermobbing
-> Phishing
+### Themen: 
+* Passwortsicherheit
+* Cybermobbing
+* Phishing
 
-Frontend:
-> React
-> TypeScript
-> REST API
+### Frontend:
+* React
+* TypeScript
+* REST API
 
-Backend:
-> C#
-> Postgres?
-> Docker
-> EF Core
+### Backend:
+* C#
+* Postgres?
+* Docker
+* EF Core
 
-Techytechy:
+### Techytechy:
 * Frontend: Sarah, Lukas P.
 * Backend: Anna, Fenja, Lukas F.
 
-Verantwortlichkeiten:
+### Verantwortlichkeiten:
 * Kommunikation: Fenja 
 (Projektmanagement: Termine (Zeitplan), Moderation, Teamprobleme, generelle Infos, Kontakt zu Externen)
 * Dokumentation: Lukas F.
