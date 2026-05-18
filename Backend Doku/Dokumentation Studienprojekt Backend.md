@@ -29,4 +29,16 @@
     CreateNew(...) : ClickableArea (static): Erzeugt einen komplett neuen Bereich
     Reconstruct(...) : ClickableArea (static): Rekonstruiert einen bestehenden Bereich
 
+# public class DragAndDropMapping #
+
+- Verknüpft ein ziehlbares Element mit seiner konkreten Zielzone
+
+- Eigenschaften:
+    Id: ID des Mappings
+    ItemId: ID des Elements, das bewegt wird
+    DropZoneId: ID der korrekten Zielzone
+
+- Methoden:
+    CreateNew(...) : DragAndDropMapping (static): Erzeugt ein neues Mapping
+    Reconstruct(...) : DragAndDropMapping (static): Rekonstruiert ein bestehendes Mapping
 
