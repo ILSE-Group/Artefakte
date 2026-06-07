@@ -42,3 +42,14 @@
     CreateNew(...) : DragAndDropMapping (static): Erzeugt ein neues Mapping
     Reconstruct(...) : DragAndDropMapping (static): Rekonstruiert ein bestehendes Mapping
 
+# public class DraggableItem #
+
+- Repräsentiert ein ziehbares Element innerhalb einer Übung
+
+- Eigenschaften:
+    Id: ID des Elements
+    Content: Der Inhalt des Elements 
+
+- Methoden:
+    CreateNew(...) : DraggableItem (static): Erzeugt ein neues Element
+    Reconstruct(...) : DraggableItem (static): Rekonstruiert ein bestehendes Element anhand seiner ID
