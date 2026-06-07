@@ -2,7 +2,7 @@
 
 # Klassen #
 
-# Excercises #
+# BaseExcercises #
 
 ### public abstract class Exercise ###
 
@@ -121,3 +121,18 @@
     CreateNew(...) : LinkingExercise (static): Erzeugt eine neue Zuordnungsaufgabe
     Reconstruct(...) : LinkingExercise (static): Rekonstruiert eine bestehende Zuordnungsaufgabe
     ValidateAnswer(...) : Exercise (override): Validiert die abgegebene Antwort
+
+### public class Room ###
+
+- Repräsentiert einen Raum, der eine Sammlung von Übungen enthält
+
+- Eigenschaften:
+    Id: ID des Raums
+    Name: Der Name des Raums
+    UnlockLevel: Das benötigte Level, um diesen Raum freizuschalten
+    CompletionExperiencePoints: Die Erfahrungspunkte, die man beim Abschluss des Raums erhält 
+    Exercises: Eine Liste der im Raum enthaltenen Übungen
+
+- Methoden:
+    CreateNew(...) : Room: Erzeugt einen neuen Raum 
+    Reconstruct(...) : Room: Rekonstruiert einen bestehenden Raum
