@@ -1,8 +1,10 @@
 # Dokumentation Studienprojekt Backend
 
-### Klassen ###
+# Klassen #
 
-# public abstract class Exercise #
+# Excercises #
+
+### public abstract class Exercise ###
 
 - Abstrakte Basisklasse für alle Aufgabentypen im System
 
@@ -16,7 +18,9 @@
     ValidateAnswer(object answer) : Exercise
     Muss von Kindklassen implementiert werden, um die übergebene Antwort zu prüfen
 
-# public class ClickableArea #
+ # ExcerciseHelper #    
+
+### public class ClickableArea ###
 
 - Repräsentiert einen anklickbaren Bereich
 
@@ -29,7 +33,7 @@
     CreateNew(...) : ClickableArea (static): Erzeugt einen komplett neuen Bereich
     Reconstruct(...) : ClickableArea (static): Rekonstruiert einen bestehenden Bereich
 
-# public class DragAndDropMapping #
+### public class DragAndDropMapping ###
 
 - Verknüpft ein ziehlbares Element mit seiner konkreten Zielzone
 
@@ -42,7 +46,7 @@
     CreateNew(...) : DragAndDropMapping (static): Erzeugt ein neues Mapping
     Reconstruct(...) : DragAndDropMapping (static): Rekonstruiert ein bestehendes Mapping
 
-# public class DraggableItem #
+### public class DraggableItem ###
 
 - Repräsentiert ein ziehbares Element innerhalb einer Übung
 
@@ -54,7 +58,7 @@
     CreateNew(...) : DraggableItem (static): Erzeugt ein neues Element
     Reconstruct(...) : DraggableItem (static): Rekonstruiert ein bestehendes Element anhand seiner ID
 
-# public class DropZone #
+### public class DropZone ###
 
 - Repräsentiert eine Zone, auf die ein Element gezogen werden kann
 
@@ -66,7 +70,7 @@
     CreateNew(...) : DropZone (static): Erzeugt eine neue Zielzone 
     Reconstruct(...) : DropZone (static): Rekonstruiert eine bestehende Zielzone anhand ihrer ID
 
-# public class Link #
+### public class Link ###
 
 - Verknüpft zwei zusammengehörige Elemente links und rechts miteinander
 
@@ -79,7 +83,7 @@
     CreateNew(...) : Link (static): Erzeugt eine neue Verknüpfung 
     Reconstruct(...) : Link (static): Rekonstruiert eine bestehende Verknüpfung 
 
-# public class MCOption #
+### public class MCOption ###
 
 - Repräsentiert eine Antwortoption innerhalb einer Multiple-Choice-Aufgabe
 
@@ -90,3 +94,16 @@
 - Methoden:
     CreateNew(...) : MCOption (static): Erzeugt eine neue Antwortoption
     Reconstruct(...) : MCOption (static): Rekonstruiert eine bestehende Antwortoption
+
+### public class ClickableImageExercise ###
+
+- Repräsentiert eineBild-Übung bei der bestimmte Bereiche des Bildes anklickbar sind
+
+- Eigenschaften:
+    ImageUrl: Die URL des anzuzeigenden Bildes
+    ClickableAreas: Eine Liste der anklickbaren Bereiche 
+
+- Methoden:
+    CreateNew(...) : ClickableImageExercise (static): Erzeugt eine neue Bild-Übung
+    Reconstruct(...) : ClickableImageExercise (static): Rekonstruiert eine bestehende Bild-Übung
+    ValidateAnswer(...) : Exercise (override): Validiert die abgegebene Antwort
