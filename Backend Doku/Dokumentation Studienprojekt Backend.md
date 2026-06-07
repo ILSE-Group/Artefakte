@@ -53,3 +53,15 @@
 - Methoden:
     CreateNew(...) : DraggableItem (static): Erzeugt ein neues Element
     Reconstruct(...) : DraggableItem (static): Rekonstruiert ein bestehendes Element anhand seiner ID
+
+# public class DropZone #
+
+- Repräsentiert eine Zone, auf die ein Element gezogen werden kann
+
+- Eigenschaften:
+    Id: ID der Zielzone
+    Label: Die Beschriftung der Zone 
+
+- Methoden:
+    CreateNew(...) : DropZone (static): Erzeugt eine neue Zielzone 
+    Reconstruct(...) : DropZone (static): Rekonstruiert eine bestehende Zielzone anhand ihrer ID
