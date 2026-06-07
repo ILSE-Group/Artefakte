@@ -107,3 +107,17 @@
     CreateNew(...) : ClickableImageExercise (static): Erzeugt eine neue Bild-Übung
     Reconstruct(...) : ClickableImageExercise (static): Rekonstruiert eine bestehende Bild-Übung
     ValidateAnswer(...) : Exercise (override): Validiert die abgegebene Antwort
+
+### public class LinkingExercise ###
+
+- Repräsentiert eine Zuordnungsaufgabe, bei der Elemente der linken Seite mit Elementen der rechten Seite verknüpft werden müssen (erbt von Exercise)
+
+- Eigenschaften:
+    LeftItems: Liste der linken Zuordnungselemente 
+    RightItems: Liste der rechten Zuordnungselemente 
+    CorrectLinks: Liste der korrekten Verknüpfungen 
+
+- Methoden:
+    CreateNew(...) : LinkingExercise (static): Erzeugt eine neue Zuordnungsaufgabe
+    Reconstruct(...) : LinkingExercise (static): Rekonstruiert eine bestehende Zuordnungsaufgabe
+    ValidateAnswer(...) : Exercise (override): Validiert die abgegebene Antwort
