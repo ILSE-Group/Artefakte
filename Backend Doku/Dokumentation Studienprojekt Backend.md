@@ -136,3 +136,17 @@
 - Methoden:
     CreateNew(...) : Room: Erzeugt einen neuen Raum 
     Reconstruct(...) : Room: Rekonstruiert einen bestehenden Raum
+
+### public class Topic ###
+
+- Repräsentiert ein übergeordnetes Thema, das in mehrere Räume unterteilt ist
+
+- Eigenschaften:
+
+    Id: ID des Themas
+    Name: Der Name des Themas 
+    Rooms: Eine Liste der zum Thema gehörenden Räume
+
+- Methoden:
+    CreateNew(...) : Topic (static): Erzeugt ein neues Thema
+    Reconstruct(...) : Topic (static): Rekonstruiert ein bestehendes Thema
