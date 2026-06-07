@@ -65,3 +65,16 @@
 - Methoden:
     CreateNew(...) : DropZone (static): Erzeugt eine neue Zielzone 
     Reconstruct(...) : DropZone (static): Rekonstruiert eine bestehende Zielzone anhand ihrer ID
+
+# public class Link #
+
+- Verknüpft zwei zusammengehörige Elemente links und rechts miteinander
+
+- Eigenschaften:
+    Id: ID der Verknüpfung 
+    LeftItem: Der Inhalt des linken Elements
+    RightItem: Der Inhalt des rechten Elements
+
+- Methoden:
+    CreateNew(...) : Link (static): Erzeugt eine neue Verknüpfung 
+    Reconstruct(...) : Link (static): Rekonstruiert eine bestehende Verknüpfung 
