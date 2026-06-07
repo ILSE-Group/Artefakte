@@ -78,3 +78,15 @@
 - Methoden:
     CreateNew(...) : Link (static): Erzeugt eine neue Verknüpfung 
     Reconstruct(...) : Link (static): Rekonstruiert eine bestehende Verknüpfung 
+
+# public class MCOption #
+
+- Repräsentiert eine Antwortoption innerhalb einer Multiple-Choice-Aufgabe
+
+- Eigenschaften:
+    Id: ID der Option
+    OptionText: Der Text der Antwortoption
+
+- Methoden:
+    CreateNew(...) : MCOption (static): Erzeugt eine neue Antwortoption
+    Reconstruct(...) : MCOption (static): Rekonstruiert eine bestehende Antwortoption
