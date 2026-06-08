@@ -18,7 +18,7 @@
     ValidateAnswer(object answer) : Exercise
     Muss von Kindklassen implementiert werden, um die übergebene Antwort zu prüfen
 
- # ExcerciseHelper #    
+# ExcerciseHelper #    
 
 ### public class ClickableArea ###
 
@@ -142,7 +142,6 @@
 - Repräsentiert ein übergeordnetes Thema, das in mehrere Räume unterteilt ist
 
 - Eigenschaften:
-
     Id: ID des Themas
     Name: Der Name des Themas 
     Rooms: Eine Liste der zum Thema gehörenden Räume
@@ -150,3 +149,20 @@
 - Methoden:
     CreateNew(...) : Topic (static): Erzeugt ein neues Thema
     Reconstruct(...) : Topic (static): Rekonstruiert ein bestehendes Thema
+
+# Progresses #
+
+### public class ExerciseProgress ###
+
+- Trackt den Fortschritt eines Benutzers bezüglich einer bestimmten Übung und hält fest, welche Übungen bereits erfolgreich abgeschlossen wurden
+
+- Eigenschaften:
+    Id: ID des Fortschritts
+    UserId: ID des zugehörigen Benutzers
+    ExerciseId: ID der aktuellen Übung
+    CompletedExercises: Liste der bereits abgeschlossener Übungen
+
+- Methoden:
+    CreateNew(...) : ExerciseProgress (static): Erzeugt einen neuen Fortschrittseintrag 
+    Reconstruct(...) : ExerciseProgress (static): Rekonstruiert einen bestehenden Fortschrittseintrag
+    MarkAsCompleted() : void: Fügt die aktuelle ExerciseId zur Liste der abgeschlossenen Übungen hinzu, falls sie noch nicht vorhanden ist
