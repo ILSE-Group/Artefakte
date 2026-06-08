@@ -166,3 +166,18 @@
     CreateNew(...) : ExerciseProgress (static): Erzeugt einen neuen Fortschrittseintrag 
     Reconstruct(...) : ExerciseProgress (static): Rekonstruiert einen bestehenden Fortschrittseintrag
     MarkAsCompleted() : void: Fügt die aktuelle ExerciseId zur Liste der abgeschlossenen Übungen hinzu, falls sie noch nicht vorhanden ist
+
+### public class RoomProgress ###
+
+- Trackt den Fortschritt eines Benutzers bezüglich eines bestimmten Raums und hält fest, welche Räume bereits erfolgreich abgeschlossen wurden
+
+- Eigenschaften:
+    Id: ID des Fortschrittseintrags
+    UserId: ID des zugehörigen Benutzers
+    RoomId: ID des aktuell betrachteten Raums
+    CompletedRooms: Liste der bereits abgeschlossener Räume
+
+- Methoden:
+    CreateNew(...) : RoomProgress (static): Erzeugt einen neuen Fortschrittseintrag
+    Reconstruct(...) : RoomProgress (static): Rekonstruiert einen bestehenden Fortschrittseintrag
+    MarkAsCompleted() : void: Fügt die aktuelle RoomId zur Liste der abgeschlossenen Räume hinzu, falls sie noch nicht vorhanden ist
