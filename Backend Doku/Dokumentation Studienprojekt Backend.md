@@ -181,3 +181,19 @@
     CreateNew(...) : RoomProgress (static): Erzeugt einen neuen Fortschrittseintrag
     Reconstruct(...) : RoomProgress (static): Rekonstruiert einen bestehenden Fortschrittseintrag
     MarkAsCompleted() : void: Fügt die aktuelle RoomId zur Liste der abgeschlossenen Räume hinzu, falls sie noch nicht vorhanden ist
+
+# User # 
+
+### public class User ###
+
+- Repräsentiert einen Benutzer mit Namen, Rolle und aktuellem Punktestand
+
+- Eigenschaften:
+    Id:ID des Benutzers
+    Username: Der Benutzername
+    Role: Die Rolle des Benutzers
+    ExperiencePoints: Der aktuelle Stand der Erfahrungspunkte
+
+- Methoden:
+    CreateNew(...) : User (static): Erzeugt einen neuen Benutzer
+    Reconstruct(...) : User (static): Rekonstruiert einen bestehenden Benutzer
