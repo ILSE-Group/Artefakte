@@ -122,6 +122,33 @@
     Reconstruct(...) : LinkingExercise (static): Rekonstruiert eine bestehende Zuordnungsaufgabe
     ValidateAnswer(...) : Exercise (override): Validiert die abgegebene Antwort
 
+### public class DragAndDropExercise ###
+
+- Repräsentiert eine Drag-and-Drop-Übung, bei der ziehbare Elemente den korrekten Zielzonen zugeordnet werden müssen
+
+- Eigenschaften:
+    Items: Liste der ziehbaren Elemente
+    Zones: Liste der verfügbaren Zielzonen
+    CorrectMappings: Liste der korrekten Zuordnungen zwischen Elementen und Zonen 
+
+- Methoden:
+    CreateNew(...) : DragAndDropExercise (static): Erzeugt eine neue Drag-and-Drop-Übung 
+    Reconstruct(...) : DragAndDropExercise (static): Rekonstruiert eine bestehende Drag-and-Drop-Übung
+    ValidateAnswer(...) : Exercise (override): Validiert die abgegebene Antwort
+
+### public class MultipleChoiceMultiAnswerExcercise ###
+
+- Repräsentiert eine Multiple-Choice-Übung mit mehreren korrekten Antwortmöglichkeiten 
+
+- Eigenschaften:
+    Options: Liste aller verfügbaren Antwortoptionen
+    CorrectOptionIds: Liste der IDs aller korrekten Antwortoptionen
+
+- Methoden:
+    CreateNew(...) : MultipleChoiceMultiAnswerExercise (static): Erzeugt eine neue Multiple-Answer-Übung
+    Reconstruct(...) : MultipleChoiceMultiAnswerExercise (static): Rekonstruiert eine bestehende Multiple-Answer-Übung
+    ValidateAnswer(...) : Exercise (override): Validiert die abgegebene Antwort
+
 ### public class Room ###
 
 - Repräsentiert einen Raum, der eine Sammlung von Übungen enthält
@@ -182,6 +209,33 @@
     Reconstruct(...) : RoomProgress (static): Rekonstruiert einen bestehenden Fortschrittseintrag
     MarkAsCompleted() : void: Fügt die aktuelle RoomId zur Liste der abgeschlossenen Räume hinzu, falls sie noch nicht vorhanden ist
 
+### public class UserProgress ###
+
+- Trackt den globalen Fortschritt eines Benutzers, insbesondere die gesammelten Gesamterfahrungspunkte
+
+- Eigenschaften:
+    Id: ID des Fortschrittseintrags 
+    UserId: ID des zugehörigen Benutzers 
+    ExperiencePoints: Die vom Benutzer gesammelten Gesamterfahrungspunkte
+
+- Methoden:
+    CreateNew(...) : UserProgress (static): Erzeugt einen neuen Fortschrittseintrag 
+    Reconstruct(...) : UserProgress (static): Rekonstruiert einen bestehenden Fortschrittseintrag
+
+### public class Level ###
+
+- Repräsentiert ein definierte Stufe (Level) im System
+
+- Eigenschaften:
+    Id: ID des Levels
+    Name: Der Name des Levels 
+    ToolImage: Pfad oder URL zu einem Bild/Icon
+    ExperiencePoints: Die für dieses Level benötigten oder damit verknüpften Erfahrungspunkte
+
+- Methoden:
+    CreateNew(...) : Level (static): Erzeugt ein neues Level
+    Reconstruct(...) : Level (static): Rekonstruiert ein bestehendes Level
+
 # User # 
 
 ### public class User ###
@@ -197,3 +251,5 @@
 - Methoden:
     CreateNew(...) : User (static): Erzeugt einen neuen Benutzer
     Reconstruct(...) : User (static): Rekonstruiert einen bestehenden Benutzer
+
+# Topics #
