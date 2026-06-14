@@ -122,6 +122,20 @@
     Reconstruct(...) : LinkingExercise (static): Rekonstruiert eine bestehende Zuordnungsaufgabe
     ValidateAnswer(...) : Exercise (override): Validiert die abgegebene Antwort
 
+### public class DragAndDropExercise ###
+
+- Repräsentiert eine Drag-and-Drop-Übung, bei der ziehbare Elemente den korrekten Zielzonen zugeordnet werden müssen
+
+- Eigenschaften:
+    Items: Liste der ziehbaren Elemente
+    Zones: Liste der verfügbaren Zielzonen
+    CorrectMappings: Liste der korrekten Zuordnungen zwischen Elementen und Zonen 
+
+- Methoden:
+    CreateNew(...) : DragAndDropExercise (static): Erzeugt eine neue Drag-and-Drop-Übung 
+    Reconstruct(...) : DragAndDropExercise (static): Rekonstruiert eine bestehende Drag-and-Drop-Übung
+    ValidateAnswer(...) : Exercise (override): Validiert die abgegebene Antwort
+
 ### public class Room ###
 
 - Repräsentiert einen Raum, der eine Sammlung von Übungen enthält
@@ -224,3 +238,5 @@
 - Methoden:
     CreateNew(...) : User (static): Erzeugt einen neuen Benutzer
     Reconstruct(...) : User (static): Rekonstruiert einen bestehenden Benutzer
+
+# Topics #
