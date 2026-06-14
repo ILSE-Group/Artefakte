@@ -136,6 +136,19 @@
     Reconstruct(...) : DragAndDropExercise (static): Rekonstruiert eine bestehende Drag-and-Drop-Übung
     ValidateAnswer(...) : Exercise (override): Validiert die abgegebene Antwort
 
+### public class MultipleChoiceMultiAnswerExcercise ###
+
+- Repräsentiert eine Multiple-Choice-Übung mit mehreren korrekten Antwortmöglichkeiten 
+
+- Eigenschaften:
+    Options: Liste aller verfügbaren Antwortoptionen
+    CorrectOptionIds: Liste der IDs aller korrekten Antwortoptionen
+
+- Methoden:
+    CreateNew(...) : MultipleChoiceMultiAnswerExercise (static): Erzeugt eine neue Multiple-Answer-Übung
+    Reconstruct(...) : MultipleChoiceMultiAnswerExercise (static): Rekonstruiert eine bestehende Multiple-Answer-Übung
+    ValidateAnswer(...) : Exercise (override): Validiert die abgegebene Antwort
+
 ### public class Room ###
 
 - Repräsentiert einen Raum, der eine Sammlung von Übungen enthält
