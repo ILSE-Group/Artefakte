@@ -182,6 +182,19 @@
     Reconstruct(...) : RoomProgress (static): Rekonstruiert einen bestehenden Fortschrittseintrag
     MarkAsCompleted() : void: Fügt die aktuelle RoomId zur Liste der abgeschlossenen Räume hinzu, falls sie noch nicht vorhanden ist
 
+### public class UserProgress ###
+
+- Trackt den globalen Fortschritt eines Benutzers, insbesondere die gesammelten Gesamterfahrungspunkte
+
+- Eigenschaften:
+    Id: ID des Fortschrittseintrags 
+    UserId: ID des zugehörigen Benutzers 
+    ExperiencePoints: Die vom Benutzer gesammelten Gesamterfahrungspunkte
+
+- Methoden:
+    CreateNew(...) : UserProgress (static): Erzeugt einen neuen Fortschrittseintrag 
+    Reconstruct(...) : UserProgress (static): Rekonstruiert einen bestehenden Fortschrittseintrag
+
 # User # 
 
 ### public class User ###
