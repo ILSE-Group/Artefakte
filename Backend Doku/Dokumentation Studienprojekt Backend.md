@@ -195,6 +195,20 @@
     CreateNew(...) : UserProgress (static): Erzeugt einen neuen Fortschrittseintrag 
     Reconstruct(...) : UserProgress (static): Rekonstruiert einen bestehenden Fortschrittseintrag
 
+### public class Level ###
+
+- Repräsentiert ein definierte Stufe (Level) im System
+
+- Eigenschaften:
+    Id: ID des Levels
+    Name: Der Name des Levels 
+    ToolImage: Pfad oder URL zu einem Bild/Icon
+    ExperiencePoints: Die für dieses Level benötigten oder damit verknüpften Erfahrungspunkte
+
+- Methoden:
+    CreateNew(...) : Level (static): Erzeugt ein neues Level
+    Reconstruct(...) : Level (static): Rekonstruiert ein bestehendes Level
+
 # User # 
 
 ### public class User ###
