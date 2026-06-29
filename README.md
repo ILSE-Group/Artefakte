@@ -55,6 +55,7 @@ Kooperation mit Karl-Ritter-von-Frisch Gymnasium Moosburg
 * 15.06.2026: Haupt-Entwicklungsprozess abgeschlossen (Testphase beginnt)
 * 02.07.2026: Poster-Präsentation (ab 15.06. Poster vorbereiten)
 * 06.07.-10.07.2026: Test-Workshop an Schule
+* bis Ende September Doku abgeben (persönlich und Soll/Ist)
 
 ### Anforderungen
 
